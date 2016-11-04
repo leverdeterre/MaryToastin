@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MarySuccessToastinViewController" customModule="MaryToastin">
+            <connections>
+                <outlet property="toastMessageLabel" destination="CGa-qI-CPT" id="Vgo-L9-O1C"/>
+                <outlet property="view" destination="iN0-l3-epB" id="jwm-bE-iDH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="137"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="success.png" translatesAutoresizingMaskIntoConstraints="NO" id="oeU-8H-Guv">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="8JS-dK-FmM"/>
+                        <constraint firstAttribute="height" constant="44" id="lXx-g9-0hs"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="actions-menu-close-blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="GhD-CH-4Nc">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="IXw-08-EkN"/>
+                        <constraint firstAttribute="height" constant="20" id="OIu-6N-SOi"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vous contacts ont été restauré avec succés" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGa-qI-CPT">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CGa-qI-CPT" secondAttribute="trailing" constant="45" id="57y-hS-cbC"/>
+                <constraint firstItem="CGa-qI-CPT" firstAttribute="leading" secondItem="oeU-8H-Guv" secondAttribute="trailing" constant="8" id="8ay-B3-peR"/>
+                <constraint firstItem="CGa-qI-CPT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="TtA-oa-POM"/>
+                <constraint firstItem="oeU-8H-Guv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hiK-2J-iH5"/>
+                <constraint firstAttribute="trailing" secondItem="GhD-CH-4Nc" secondAttribute="trailing" constant="20" id="i8D-6N-IYk"/>
+                <constraint firstItem="GhD-CH-4Nc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="p6p-Gb-auD"/>
+                <constraint firstItem="oeU-8H-Guv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="tj9-rE-Rx5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-368" y="-22"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="actions-menu-close-blue.png" width="20" height="20"/>
+        <image name="success.png" width="44" height="44"/>
+    </resources>
+</document>

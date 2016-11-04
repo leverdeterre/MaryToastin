@@ -1,0 +1,1084 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11EBE8D3BF32B9B42641193FD77EF701 /* MaryToastin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44292FCC32F6431DDDC0BC35A840231B /* MaryToastin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23FD8B23397E5445DA4AD07203C91B5F /* Pods-MaryToastin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 128F8D5F6090268C976ECCB3256555AA /* Pods-MaryToastin_Tests-dummy.m */; };
+		2C10149CFF09D5C544466170FA5A040B /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC8AFFC58912E4DCF905516C9883648 /* success.png */; };
+		2EDFB7EE2EDB9B03E82B8406EC4C1F9D /* MaryPopin-bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 391C0126038B2D151D5F39E967717883 /* MaryPopin-bridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E313F7109D1FEBAC6B1CFB251F4109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450DAE8E6C219D2713AA6C4E83A34A3D /* Foundation.framework */; };
+		5C102C956BBF83B759A3C8526F067B43 /* Pods-MaryToastin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F0E9FE260B92919BD08D4627923DAD /* Pods-MaryToastin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A811C5C3E93CDB156D0ECC62B483BB6 /* MaryToastin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A001B6267FA7A6F9911605069751ECC2 /* MaryToastin.bundle */; };
+		6DB531F316021AAAAFACA080C5C096B7 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D5307A9D54048A59DE8AA9583177EE /* success@3x.png */; };
+		7E3446FBAF72FBFE3056CB96D8C65ED5 /* MaryToastin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A0562B8598872C5F800042B0C25EF /* MaryToastin.swift */; };
+		7FF6FB6D739712EDBA83945E50F16E66 /* Pods-MaryToastin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3B5801E38957647E40B48027874031 /* Pods-MaryToastin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829816E06A8ED7A3EC281CF5000EFA4A /* MaryPopin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC6029EF11E77645A8B33DEC4AC2704 /* MaryPopin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85902B995B97E2D391A1DD3EE4E0CFC8 /* actions-menu-close-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C2FD6D0FECE8C8BDE4F2BDA553ADC6F /* actions-menu-close-blue@2x.png */; };
+		8897D0C06719431444CC6FE39C90D528 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = 21825134827DAECF7A00DFF516E6D085 /* UIViewController+MaryPopin.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		95C55AB6529C7C0F23E1D96B27D4B781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450DAE8E6C219D2713AA6C4E83A34A3D /* Foundation.framework */; };
+		AB5B7C40B19DC589A759DC6632F5271D /* MaryPopin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DD576EFB2344D248135277B9E8B452 /* MaryPopin-dummy.m */; };
+		B4A75F9D34F8B84956E9F28E640C33D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450DAE8E6C219D2713AA6C4E83A34A3D /* Foundation.framework */; };
+		C652A104EFA3787DAD3F18A6FD80CE2B /* Pods-MaryToastin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D739B918816A1FF2071D7DA46C1551 /* Pods-MaryToastin_Example-dummy.m */; };
+		C99EB0433711AB34804E6F527ACD9200 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F9C171AB61B9002381E5F7B5958EF3 /* UIKit.framework */; };
+		CFFEAF5FB4AF808AEC9DD11F974BDB85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450DAE8E6C219D2713AA6C4E83A34A3D /* Foundation.framework */; };
+		D2373C089A1B65905DC6012D9F97E53C /* MarySuccessToastinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CDFA4CDA43E4652CE2BE9FB051572F /* MarySuccessToastinViewController.xib */; };
+		D66F3B8DF82A93255B8E162708152487 /* UIViewController+MaryPopin.h in Headers */ = {isa = PBXBuildFile; fileRef = 93551E5192E636F84406A0A34859A1EA /* UIViewController+MaryPopin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74771974956324BC3E91B8EEF72D8FF /* MaryToastin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCD3A11A7B853A0E01E858C6A033E9 /* MaryToastin-dummy.m */; };
+		DDC6A6DAE541019BE9FED1994BD9A98F /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 726F46DB0891C479641326B20D49ACEB /* success@2x.png */; };
+		E8A007EF9190517CDCA73C9E87F8A8BB /* MaryPopin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDD1D5C52FD90037FFF195FA1AF0DC7 /* MaryPopin.framework */; };
+		EF5893341F765BBBFBB7F42488AA5CF2 /* actions-menu-close-blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54DEBDFAC71BD38F0A013EA4A7E92EED /* actions-menu-close-blue@3x.png */; };
+		F6E5FAB3E8D267B6ABF02B89ABDFA864 /* actions-menu-close-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB9D5421A046F4773B7014C6D671A /* actions-menu-close-blue.png */; };
+		FF973CEBB278AE49BB7E3FDB94120591 /* MarySuccessToastinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163DE59CA805AD64284CF3D220192187 /* MarySuccessToastinViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BC11A75EB0D7D9BF75306975BAE89AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E806DAF9F5E6FFAD7F9D3B28D380775;
+			remoteInfo = "MaryToastin-MaryToastin";
+		};
+		7435B4247C441667B7DCF89D7626BEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A568E34755F1F9401821291E8913B8B8;
+			remoteInfo = MaryPopin;
+		};
+		D37CF7490150829AA942383820199476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A568E34755F1F9401821291E8913B8B8;
+			remoteInfo = MaryPopin;
+		};
+		DE1DF2450CE9032408E52A3541FE53BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF7A44BA672F14CCE11DC36B20C1A6F;
+			remoteInfo = MaryToastin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B8A0562B8598872C5F800042B0C25EF /* MaryToastin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaryToastin.swift; sourceTree = "<group>"; };
+		0D41F472E6BA7EC3676E7BBC005C0F50 /* MaryPopin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaryPopin.xcconfig; sourceTree = "<group>"; };
+		0FC8AFFC58912E4DCF905516C9883648 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; path = success.png; sourceTree = "<group>"; };
+		128F8D5F6090268C976ECCB3256555AA /* Pods-MaryToastin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaryToastin_Tests-dummy.m"; sourceTree = "<group>"; };
+		1607F957767ABE74BC2D2C4505B4C76A /* Pods-MaryToastin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaryToastin_Example-resources.sh"; sourceTree = "<group>"; };
+		163DE59CA805AD64284CF3D220192187 /* MarySuccessToastinViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarySuccessToastinViewController.swift; sourceTree = "<group>"; };
+		1FD2F397B0A9DF0C97D14D9F31A3212B /* Pods-MaryToastin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaryToastin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		21825134827DAECF7A00DFF516E6D085 /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MaryPopin.m"; path = "MaryPopin/UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
+		2553B7DFB240D9390A48196275DF114D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF5CED371298A7FD009CA9A9E2B00AF /* ResourceBundle-MaryToastin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MaryToastin-Info.plist"; sourceTree = "<group>"; };
+		2E002BE8D8B81E1D5F524E304C84F475 /* MaryPopin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaryPopin-prefix.pch"; sourceTree = "<group>"; };
+		2ED3659708D8D022486127D82D6D0005 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F480CBC5D346AEA58AF26012FAB1A82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDD1D5C52FD90037FFF195FA1AF0DC7 /* MaryPopin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaryPopin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391C0126038B2D151D5F39E967717883 /* MaryPopin-bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaryPopin-bridge.h"; sourceTree = "<group>"; };
+		3AC5BF5D35894CA81E4A2B98CC1419EA /* Pods_MaryToastin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaryToastin_Tests.framework; path = "Pods-MaryToastin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC6029EF11E77645A8B33DEC4AC2704 /* MaryPopin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaryPopin-umbrella.h"; sourceTree = "<group>"; };
+		44292FCC32F6431DDDC0BC35A840231B /* MaryToastin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaryToastin-umbrella.h"; sourceTree = "<group>"; };
+		450DAE8E6C219D2713AA6C4E83A34A3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4944B8BCC9831FD9569C4D96E8864D27 /* MaryToastin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MaryToastin.modulemap; sourceTree = "<group>"; };
+		4A3A761D3604F5483414855D2F7E338B /* MaryToastin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaryToastin.framework; path = MaryToastin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EA42EB6C93B1A051FB6071B4E5C5A1 /* Pods-MaryToastin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaryToastin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54DEBDFAC71BD38F0A013EA4A7E92EED /* actions-menu-close-blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "actions-menu-close-blue@3x.png"; sourceTree = "<group>"; };
+		57E6D167C0160F4360D3925F728B5612 /* MaryPopin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaryPopin.framework; path = MaryPopin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2FD6D0FECE8C8BDE4F2BDA553ADC6F /* actions-menu-close-blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "actions-menu-close-blue@2x.png"; sourceTree = "<group>"; };
+		60F9C171AB61B9002381E5F7B5958EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		69CDFA4CDA43E4652CE2BE9FB051572F /* MarySuccessToastinViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MarySuccessToastinViewController.xib; sourceTree = "<group>"; };
+		6C4C2F1148722D2C3AD2378D4C07449C /* Pods-MaryToastin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaryToastin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EBCD3A11A7B853A0E01E858C6A033E9 /* MaryToastin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaryToastin-dummy.m"; sourceTree = "<group>"; };
+		726F46DB0891C479641326B20D49ACEB /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "success@2x.png"; sourceTree = "<group>"; };
+		778DD53C4D5BEA00948818AFB0325770 /* Pods-MaryToastin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaryToastin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C5AD75FC1C5130B6402881A4BFDCF1D /* Pods-MaryToastin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaryToastin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		84F0E9FE260B92919BD08D4627923DAD /* Pods-MaryToastin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaryToastin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		85DD576EFB2344D248135277B9E8B452 /* MaryPopin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaryPopin-dummy.m"; sourceTree = "<group>"; };
+		87AE05F667311545E76C04598F13C0DE /* Pods-MaryToastin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaryToastin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D9B111FF8D99E0F11729E62395FB0DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9182E6D7F276F83E1A6A75521384BD1A /* Pods-MaryToastin_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaryToastin_Tests-resources.sh"; sourceTree = "<group>"; };
+		93551E5192E636F84406A0A34859A1EA /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MaryPopin.h"; path = "MaryPopin/UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D739B918816A1FF2071D7DA46C1551 /* Pods-MaryToastin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaryToastin_Example-dummy.m"; sourceTree = "<group>"; };
+		A001B6267FA7A6F9911605069751ECC2 /* MaryToastin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MaryToastin.bundle; path = MaryToastin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9F2C96CA88807A7661D8778B6AFF49 /* Pods-MaryToastin_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaryToastin_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C0D05B03B774B1A0D11D53833BF51D22 /* MaryToastin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaryToastin.xcconfig; sourceTree = "<group>"; };
+		C7DFB9D5421A046F4773B7014C6D671A /* actions-menu-close-blue.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "actions-menu-close-blue.png"; sourceTree = "<group>"; };
+		C8009ABAF6A78A99B30FF28AD1F3227A /* MaryPopin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MaryPopin.modulemap; sourceTree = "<group>"; };
+		C9D2F9480BA3160D566DDD76D9F0102B /* Pods-MaryToastin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaryToastin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D712CC064F2339A6E01172766CC0DEA8 /* Pods_MaryToastin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaryToastin_Example.framework; path = "Pods-MaryToastin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D759B41DDE76C7B013E07CB94FC5E154 /* Pods-MaryToastin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaryToastin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E66E4644127BB56EDF349CC64D4658C9 /* Pods-MaryToastin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaryToastin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ED99414558D275A59F1552D0429333B7 /* Pods-MaryToastin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MaryToastin_Tests.modulemap"; sourceTree = "<group>"; };
+		EE3B5801E38957647E40B48027874031 /* Pods-MaryToastin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaryToastin_Example-umbrella.h"; sourceTree = "<group>"; };
+		F39EFCB3B79860CCD9B799A152693E54 /* MaryToastin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaryToastin-prefix.pch"; sourceTree = "<group>"; };
+		F6D5307A9D54048A59DE8AA9583177EE /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "success@3x.png"; sourceTree = "<group>"; };
+		FAB6612C079AB8AF2B10860102072535 /* Pods-MaryToastin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MaryToastin_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D32D76AD7E2FFB1A2A6EF25015576FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E313F7109D1FEBAC6B1CFB251F4109 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE9F10435BAF1456D8774220364D69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A75F9D34F8B84956E9F28E640C33D1 /* Foundation.framework in Frameworks */,
+				C99EB0433711AB34804E6F527ACD9200 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FEDD086D3694BA02DF3164E4A167C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFEAF5FB4AF808AEC9DD11F974BDB85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C115CD6ADB3B67E460D1559CBEFFDDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46E51155955653B744A77E1D2F88FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C55AB6529C7C0F23E1D96B27D4B781 /* Foundation.framework in Frameworks */,
+				E8A007EF9190517CDCA73C9E87F8A8BB /* MaryPopin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04044835A4EB251D81FCCB5E9AE7E248 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C03C8FD85D98234C831816A4652E03B7 /* MaryToastin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1AC44FC40DC80659871D72453CCE1255 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D3CDDF799E3A72BDDC2787EF07D7E2A /* Pods-MaryToastin_Example */,
+				8EA32C9A85B97A46FFD7778B0782FE5B /* Pods-MaryToastin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31A2F2877E91520BE3E9B6C72625FA70 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				450DAE8E6C219D2713AA6C4E83A34A3D /* Foundation.framework */,
+				60F9C171AB61B9002381E5F7B5958EF3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4D234EDCFD776B08F9B12D8AF51CB838 /* MaryToastin */ = {
+			isa = PBXGroup;
+			children = (
+				6CA55EA9247D2ADB06C339BF88298D73 /* Assets */,
+			);
+			name = MaryToastin;
+			path = MaryToastin;
+			sourceTree = "<group>";
+		};
+		55B59A9E260111FE129415723F21BA96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ED3659708D8D022486127D82D6D0005 /* Info.plist */,
+				4944B8BCC9831FD9569C4D96E8864D27 /* MaryToastin.modulemap */,
+				C0D05B03B774B1A0D11D53833BF51D22 /* MaryToastin.xcconfig */,
+				6EBCD3A11A7B853A0E01E858C6A033E9 /* MaryToastin-dummy.m */,
+				F39EFCB3B79860CCD9B799A152693E54 /* MaryToastin-prefix.pch */,
+				44292FCC32F6431DDDC0BC35A840231B /* MaryToastin-umbrella.h */,
+				2AF5CED371298A7FD009CA9A9E2B00AF /* ResourceBundle-MaryToastin-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MaryToastin";
+			sourceTree = "<group>";
+		};
+		6CA55EA9247D2ADB06C339BF88298D73 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFB9D5421A046F4773B7014C6D671A /* actions-menu-close-blue.png */,
+				5C2FD6D0FECE8C8BDE4F2BDA553ADC6F /* actions-menu-close-blue@2x.png */,
+				54DEBDFAC71BD38F0A013EA4A7E92EED /* actions-menu-close-blue@3x.png */,
+				69CDFA4CDA43E4652CE2BE9FB051572F /* MarySuccessToastinViewController.xib */,
+				0FC8AFFC58912E4DCF905516C9883648 /* success.png */,
+				726F46DB0891C479641326B20D49ACEB /* success@2x.png */,
+				F6D5307A9D54048A59DE8AA9583177EE /* success@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				04044835A4EB251D81FCCB5E9AE7E248 /* Development Pods */,
+				8EB657BA39E559263F8ED1D59D862D8A /* Frameworks */,
+				BE5AC09956D6E38E71DE774C8F8EB91A /* Pods */,
+				B9A248BA87FF8E0775B8AAEA14150B41 /* Products */,
+				1AC44FC40DC80659871D72453CCE1255 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8552ADD5EDF5BF1C00685356648BA3F6 /* MaryPopin */ = {
+			isa = PBXGroup;
+			children = (
+				93551E5192E636F84406A0A34859A1EA /* UIViewController+MaryPopin.h */,
+				21825134827DAECF7A00DFF516E6D085 /* UIViewController+MaryPopin.m */,
+				B247D396BDC728B381EB634062A54157 /* Support Files */,
+			);
+			name = MaryPopin;
+			path = MaryPopin;
+			sourceTree = "<group>";
+		};
+		8EA32C9A85B97A46FFD7778B0782FE5B /* Pods-MaryToastin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F480CBC5D346AEA58AF26012FAB1A82 /* Info.plist */,
+				ED99414558D275A59F1552D0429333B7 /* Pods-MaryToastin_Tests.modulemap */,
+				51EA42EB6C93B1A051FB6071B4E5C5A1 /* Pods-MaryToastin_Tests-acknowledgements.markdown */,
+				87AE05F667311545E76C04598F13C0DE /* Pods-MaryToastin_Tests-acknowledgements.plist */,
+				128F8D5F6090268C976ECCB3256555AA /* Pods-MaryToastin_Tests-dummy.m */,
+				AD9F2C96CA88807A7661D8778B6AFF49 /* Pods-MaryToastin_Tests-frameworks.sh */,
+				9182E6D7F276F83E1A6A75521384BD1A /* Pods-MaryToastin_Tests-resources.sh */,
+				84F0E9FE260B92919BD08D4627923DAD /* Pods-MaryToastin_Tests-umbrella.h */,
+				1FD2F397B0A9DF0C97D14D9F31A3212B /* Pods-MaryToastin_Tests.debug.xcconfig */,
+				778DD53C4D5BEA00948818AFB0325770 /* Pods-MaryToastin_Tests.release.xcconfig */,
+			);
+			name = "Pods-MaryToastin_Tests";
+			path = "Target Support Files/Pods-MaryToastin_Tests";
+			sourceTree = "<group>";
+		};
+		8EB657BA39E559263F8ED1D59D862D8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FDD1D5C52FD90037FFF195FA1AF0DC7 /* MaryPopin.framework */,
+				31A2F2877E91520BE3E9B6C72625FA70 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D3CDDF799E3A72BDDC2787EF07D7E2A /* Pods-MaryToastin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2553B7DFB240D9390A48196275DF114D /* Info.plist */,
+				FAB6612C079AB8AF2B10860102072535 /* Pods-MaryToastin_Example.modulemap */,
+				6C4C2F1148722D2C3AD2378D4C07449C /* Pods-MaryToastin_Example-acknowledgements.markdown */,
+				7C5AD75FC1C5130B6402881A4BFDCF1D /* Pods-MaryToastin_Example-acknowledgements.plist */,
+				97D739B918816A1FF2071D7DA46C1551 /* Pods-MaryToastin_Example-dummy.m */,
+				E66E4644127BB56EDF349CC64D4658C9 /* Pods-MaryToastin_Example-frameworks.sh */,
+				1607F957767ABE74BC2D2C4505B4C76A /* Pods-MaryToastin_Example-resources.sh */,
+				EE3B5801E38957647E40B48027874031 /* Pods-MaryToastin_Example-umbrella.h */,
+				D759B41DDE76C7B013E07CB94FC5E154 /* Pods-MaryToastin_Example.debug.xcconfig */,
+				C9D2F9480BA3160D566DDD76D9F0102B /* Pods-MaryToastin_Example.release.xcconfig */,
+			);
+			name = "Pods-MaryToastin_Example";
+			path = "Target Support Files/Pods-MaryToastin_Example";
+			sourceTree = "<group>";
+		};
+		A78725C706EA876DE4EF69F5F13FF7C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				391C0126038B2D151D5F39E967717883 /* MaryPopin-bridge.h */,
+				163DE59CA805AD64284CF3D220192187 /* MarySuccessToastinViewController.swift */,
+				0B8A0562B8598872C5F800042B0C25EF /* MaryToastin.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B247D396BDC728B381EB634062A54157 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B111FF8D99E0F11729E62395FB0DD /* Info.plist */,
+				C8009ABAF6A78A99B30FF28AD1F3227A /* MaryPopin.modulemap */,
+				0D41F472E6BA7EC3676E7BBC005C0F50 /* MaryPopin.xcconfig */,
+				85DD576EFB2344D248135277B9E8B452 /* MaryPopin-dummy.m */,
+				2E002BE8D8B81E1D5F524E304C84F475 /* MaryPopin-prefix.pch */,
+				3CC6029EF11E77645A8B33DEC4AC2704 /* MaryPopin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaryPopin";
+			sourceTree = "<group>";
+		};
+		B9A248BA87FF8E0775B8AAEA14150B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E6D167C0160F4360D3925F728B5612 /* MaryPopin.framework */,
+				A001B6267FA7A6F9911605069751ECC2 /* MaryToastin.bundle */,
+				4A3A761D3604F5483414855D2F7E338B /* MaryToastin.framework */,
+				D712CC064F2339A6E01172766CC0DEA8 /* Pods_MaryToastin_Example.framework */,
+				3AC5BF5D35894CA81E4A2B98CC1419EA /* Pods_MaryToastin_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE5AC09956D6E38E71DE774C8F8EB91A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8552ADD5EDF5BF1C00685356648BA3F6 /* MaryPopin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C03C8FD85D98234C831816A4652E03B7 /* MaryToastin */ = {
+			isa = PBXGroup;
+			children = (
+				CD741E6ECDB4DD1992F5614566388C28 /* MaryToastin */,
+				F9B799878042966FF1990625CE5223C1 /* Resources */,
+				55B59A9E260111FE129415723F21BA96 /* Support Files */,
+			);
+			name = MaryToastin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CD741E6ECDB4DD1992F5614566388C28 /* MaryToastin */ = {
+			isa = PBXGroup;
+			children = (
+				A78725C706EA876DE4EF69F5F13FF7C2 /* Classes */,
+			);
+			name = MaryToastin;
+			path = MaryToastin;
+			sourceTree = "<group>";
+		};
+		F9B799878042966FF1990625CE5223C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D234EDCFD776B08F9B12D8AF51CB838 /* MaryToastin */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07826DEB11A121209F785E57D37185DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C102C956BBF83B759A3C8526F067B43 /* Pods-MaryToastin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4F07666258DA257179C16F410E07D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF6FB6D739712EDBA83945E50F16E66 /* Pods-MaryToastin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B41BFD5CDB3FA1F340955C10CA4E16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829816E06A8ED7A3EC281CF5000EFA4A /* MaryPopin-umbrella.h in Headers */,
+				D66F3B8DF82A93255B8E162708152487 /* UIViewController+MaryPopin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAC6769BD91402817C8D680FC504FAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDFB7EE2EDB9B03E82B8406EC4C1F9D /* MaryPopin-bridge.h in Headers */,
+				11EBE8D3BF32B9B42641193FD77EF701 /* MaryToastin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BF7A44BA672F14CCE11DC36B20C1A6F /* MaryToastin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109094260885C3C36BFBE72B2623279B /* Build configuration list for PBXNativeTarget "MaryToastin" */;
+			buildPhases = (
+				95D6D51B58302FBA4C23406A13FC90DF /* Sources */,
+				E46E51155955653B744A77E1D2F88FB3 /* Frameworks */,
+				43EC249FA6D66E4178D91C65997A9465 /* Resources */,
+				CFAC6769BD91402817C8D680FC504FAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F49B94ADC3659FAF96E2526B37075A7 /* PBXTargetDependency */,
+				413753B7F657EDC068B9D3FEB829A0C3 /* PBXTargetDependency */,
+			);
+			name = MaryToastin;
+			productName = MaryToastin;
+			productReference = 4A3A761D3604F5483414855D2F7E338B /* MaryToastin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E806DAF9F5E6FFAD7F9D3B28D380775 /* MaryToastin-MaryToastin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B5D5996539CB055A90EAF2711E5B94 /* Build configuration list for PBXNativeTarget "MaryToastin-MaryToastin" */;
+			buildPhases = (
+				6B2CA2442016640F85F3D65070C9D1C6 /* Sources */,
+				C115CD6ADB3B67E460D1559CBEFFDDC5 /* Frameworks */,
+				5577034EBB58F1C5334ED27A01E4BF58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaryToastin-MaryToastin";
+			productName = "MaryToastin-MaryToastin";
+			productReference = A001B6267FA7A6F9911605069751ECC2 /* MaryToastin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		56C14E09F4402D9084F0C086C063B3D6 /* Pods-MaryToastin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56A8004B67A483F28F51CED61C498A9 /* Build configuration list for PBXNativeTarget "Pods-MaryToastin_Tests" */;
+			buildPhases = (
+				0791D581FF5EF6154188DC0988E62B79 /* Sources */,
+				2D32D76AD7E2FFB1A2A6EF25015576FE /* Frameworks */,
+				07826DEB11A121209F785E57D37185DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MaryToastin_Tests";
+			productName = "Pods-MaryToastin_Tests";
+			productReference = 3AC5BF5D35894CA81E4A2B98CC1419EA /* Pods_MaryToastin_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		877C68B497B5E9C9851695004C4DD3D1 /* Pods-MaryToastin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47452C84AB479588A3ADC97BA6846C7C /* Build configuration list for PBXNativeTarget "Pods-MaryToastin_Example" */;
+			buildPhases = (
+				04E54E6C1A66CB885F1EA75F9D3C90E9 /* Sources */,
+				50FEDD086D3694BA02DF3164E4A167C2 /* Frameworks */,
+				4F4F07666258DA257179C16F410E07D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D84DDAB5799AAC9DC7570AEE26F02B1C /* PBXTargetDependency */,
+				6FDDDCB3489DB8270CDCA319FFDEB2AD /* PBXTargetDependency */,
+			);
+			name = "Pods-MaryToastin_Example";
+			productName = "Pods-MaryToastin_Example";
+			productReference = D712CC064F2339A6E01172766CC0DEA8 /* Pods_MaryToastin_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A568E34755F1F9401821291E8913B8B8 /* MaryPopin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17695DABE7B96505F0019C562239D10E /* Build configuration list for PBXNativeTarget "MaryPopin" */;
+			buildPhases = (
+				9347F5E208422E5404655621ACBD7FCE /* Sources */,
+				4DE9F10435BAF1456D8774220364D69A /* Frameworks */,
+				83B41BFD5CDB3FA1F340955C10CA4E16 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaryPopin;
+			productName = MaryPopin;
+			productReference = 57E6D167C0160F4360D3925F728B5612 /* MaryPopin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B9A248BA87FF8E0775B8AAEA14150B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A568E34755F1F9401821291E8913B8B8 /* MaryPopin */,
+				1BF7A44BA672F14CCE11DC36B20C1A6F /* MaryToastin */,
+				4E806DAF9F5E6FFAD7F9D3B28D380775 /* MaryToastin-MaryToastin */,
+				877C68B497B5E9C9851695004C4DD3D1 /* Pods-MaryToastin_Example */,
+				56C14E09F4402D9084F0C086C063B3D6 /* Pods-MaryToastin_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43EC249FA6D66E4178D91C65997A9465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A811C5C3E93CDB156D0ECC62B483BB6 /* MaryToastin.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5577034EBB58F1C5334ED27A01E4BF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E5FAB3E8D267B6ABF02B89ABDFA864 /* actions-menu-close-blue.png in Resources */,
+				85902B995B97E2D391A1DD3EE4E0CFC8 /* actions-menu-close-blue@2x.png in Resources */,
+				EF5893341F765BBBFBB7F42488AA5CF2 /* actions-menu-close-blue@3x.png in Resources */,
+				D2373C089A1B65905DC6012D9F97E53C /* MarySuccessToastinViewController.xib in Resources */,
+				2C10149CFF09D5C544466170FA5A040B /* success.png in Resources */,
+				DDC6A6DAE541019BE9FED1994BD9A98F /* success@2x.png in Resources */,
+				6DB531F316021AAAAFACA080C5C096B7 /* success@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E54E6C1A66CB885F1EA75F9D3C90E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C652A104EFA3787DAD3F18A6FD80CE2B /* Pods-MaryToastin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0791D581FF5EF6154188DC0988E62B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FD8B23397E5445DA4AD07203C91B5F /* Pods-MaryToastin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2CA2442016640F85F3D65070C9D1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9347F5E208422E5404655621ACBD7FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5B7C40B19DC589A759DC6632F5271D /* MaryPopin-dummy.m in Sources */,
+				8897D0C06719431444CC6FE39C90D528 /* UIViewController+MaryPopin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D6D51B58302FBA4C23406A13FC90DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF973CEBB278AE49BB7E3FDB94120591 /* MarySuccessToastinViewController.swift in Sources */,
+				D74771974956324BC3E91B8EEF72D8FF /* MaryToastin-dummy.m in Sources */,
+				7E3446FBAF72FBFE3056CB96D8C65ED5 /* MaryToastin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		413753B7F657EDC068B9D3FEB829A0C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MaryToastin-MaryToastin";
+			target = 4E806DAF9F5E6FFAD7F9D3B28D380775 /* MaryToastin-MaryToastin */;
+			targetProxy = 2BC11A75EB0D7D9BF75306975BAE89AA /* PBXContainerItemProxy */;
+		};
+		5F49B94ADC3659FAF96E2526B37075A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaryPopin;
+			target = A568E34755F1F9401821291E8913B8B8 /* MaryPopin */;
+			targetProxy = D37CF7490150829AA942383820199476 /* PBXContainerItemProxy */;
+		};
+		6FDDDCB3489DB8270CDCA319FFDEB2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaryToastin;
+			target = 1BF7A44BA672F14CCE11DC36B20C1A6F /* MaryToastin */;
+			targetProxy = DE1DF2450CE9032408E52A3541FE53BE /* PBXContainerItemProxy */;
+		};
+		D84DDAB5799AAC9DC7570AEE26F02B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaryPopin;
+			target = A568E34755F1F9401821291E8913B8B8 /* MaryPopin */;
+			targetProxy = 7435B4247C441667B7DCF89D7626BEC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A7FAC9AEF722A2AC58C1E58C82A42CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D41F472E6BA7EC3676E7BBC005C0F50 /* MaryPopin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaryPopin/MaryPopin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaryPopin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaryPopin/MaryPopin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MaryPopin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19102253084B555D6707E48EF1D02378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD2F397B0A9DF0C97D14D9F31A3212B /* Pods-MaryToastin_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaryToastin_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaryToastin_Tests/Pods-MaryToastin_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MaryToastin_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24CCADC08175E38F1D65BDCFC606D8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D2F9480BA3160D566DDD76D9F0102B /* Pods-MaryToastin_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaryToastin_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaryToastin_Example/Pods-MaryToastin_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MaryToastin_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7522C352751BE65A12F0979B84892B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D759B41DDE76C7B013E07CB94FC5E154 /* Pods-MaryToastin_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaryToastin_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaryToastin_Example/Pods-MaryToastin_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MaryToastin_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BCAE57D735BA12812C2888418CBAD15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D05B03B774B1A0D11D53833BF51D22 /* MaryToastin.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaryToastin";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MaryToastin/ResourceBundle-MaryToastin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MaryToastin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D127578BBA6016F46CAD2333EC3FB5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D05B03B774B1A0D11D53833BF51D22 /* MaryToastin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaryToastin/MaryToastin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaryToastin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaryToastin/MaryToastin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MaryToastin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF4B98AE97549E5355E4E8E3E48E5F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778DD53C4D5BEA00948818AFB0325770 /* Pods-MaryToastin_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaryToastin_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaryToastin_Tests/Pods-MaryToastin_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MaryToastin_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF57F63CBBBDF758EF6D72BFA75D70D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D05B03B774B1A0D11D53833BF51D22 /* MaryToastin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaryToastin/MaryToastin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaryToastin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaryToastin/MaryToastin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MaryToastin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1A4E5883E504D39F75B9EA9622131DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D05B03B774B1A0D11D53833BF51D22 /* MaryToastin.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaryToastin";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MaryToastin/ResourceBundle-MaryToastin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MaryToastin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EDB2CAFF5677DF7E4D3A3FDBF6BCBDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D41F472E6BA7EC3676E7BBC005C0F50 /* MaryPopin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaryPopin/MaryPopin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaryPopin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaryPopin/MaryPopin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MaryPopin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109094260885C3C36BFBE72B2623279B /* Build configuration list for PBXNativeTarget "MaryToastin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF57F63CBBBDF758EF6D72BFA75D70D7 /* Debug */,
+				D127578BBA6016F46CAD2333EC3FB5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17695DABE7B96505F0019C562239D10E /* Build configuration list for PBXNativeTarget "MaryPopin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB2CAFF5677DF7E4D3A3FDBF6BCBDCB /* Debug */,
+				0A7FAC9AEF722A2AC58C1E58C82A42CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B5D5996539CB055A90EAF2711E5B94 /* Build configuration list for PBXNativeTarget "MaryToastin-MaryToastin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE57D735BA12812C2888418CBAD15E /* Debug */,
+				E1A4E5883E504D39F75B9EA9622131DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47452C84AB479588A3ADC97BA6846C7C /* Build configuration list for PBXNativeTarget "Pods-MaryToastin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7522C352751BE65A12F0979B84892B9D /* Debug */,
+				24CCADC08175E38F1D65BDCFC606D8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56A8004B67A483F28F51CED61C498A9 /* Build configuration list for PBXNativeTarget "Pods-MaryToastin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19102253084B555D6707E48EF1D02378 /* Debug */,
+				DF4B98AE97549E5355E4E8E3E48E5F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,19 @@
+PODS:
+  - MaryPopin (1.4.2)
+  - MaryToastin (0.1.0):
+    - MaryPopin (= 1.4.2)
+
+DEPENDENCIES:
+  - MaryToastin (from `../`)
+
+EXTERNAL SOURCES:
+  MaryToastin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MaryPopin: 24affc7fab9608dcad88279e32e774e5de5d54ac
+  MaryToastin: ea19a68b35082442e29e7abee65b1fa3b027c3bd
+
+PODFILE CHECKSUM: 13cdb874b93ca0ed85e21abf1595a06be8a448bb
+
+COCOAPODS: 1.1.1

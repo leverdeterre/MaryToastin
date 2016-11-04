@@ -1,0 +1,6 @@
+framework module Pods_MaryToastin_Example {
+  umbrella header "Pods-MaryToastin_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module MaryToastin {
+  umbrella header "MaryToastin-umbrella.h"
+
+  export *
+  module * { export * }
+}
