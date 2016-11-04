@@ -31,7 +31,7 @@ showNotification(message: "Hello")
 showSuccessNotification(message: "Hello")
 ```
 
-![Image](./Screenshots/Toast.png)
+![Image](./screenshots/Toast.png)
 
 ## Author
 
