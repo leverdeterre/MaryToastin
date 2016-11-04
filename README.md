@@ -31,6 +31,8 @@ showNotification(message: "Hello")
 showSuccessNotification(message: "Hello")
 ```
 
+![Image](./Screenshots/Toast.png)
+
 ## Author
 
 Jérôme Morissard, morissardj@gmail.com
