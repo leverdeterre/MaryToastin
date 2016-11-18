@@ -33,8 +33,8 @@ extension UIView {
             bounds.origin.x = 0.0
             bounds.origin.y = bounds.size.height - 1.0
             bounds.size.height = shadowOffset.height
-            var shadowRect = bounds
-            var pathCreate = CGPath(rect: shadowRect, transform: nil)
+            let shadowRect = bounds
+            let pathCreate = CGPath(rect: shadowRect, transform: nil)
             layer.shadowPath = pathCreate
         }
     }
