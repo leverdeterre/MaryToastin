@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		775690B7D1B5275191DC7132 /* Pods_MaryToastin_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7881ED6389799722780603 /* Pods_MaryToastin_Tests.framework */; };
+		C2A1EAFF1DD0ADC700B4A1EE /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = C2A1EAFE1DD0ADC700B4A1EE /* CHANGELOG.md */; };
+		C2A1EB071DD0AE1300B4A1EE /* MaryToastin_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A1EB061DD0AE1300B4A1EE /* MaryToastin_ExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = MaryToastin;
+		};
+		C2A1EB091DD0AE1300B4A1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = MaryToastin_Example;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,6 +53,10 @@
 		8B7881ED6389799722780603 /* Pods_MaryToastin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaryToastin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9483E020CC122EF207B1FA35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A1F64A3FEF70CDD4BEBC69D3 /* Pods-MaryToastin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryToastin_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaryToastin_Tests/Pods-MaryToastin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C2A1EAFE1DD0ADC700B4A1EE /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
+		C2A1EB041DD0AE1300B4A1EE /* MaryToastin_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaryToastin_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A1EB061DD0AE1300B4A1EE /* MaryToastin_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaryToastin_ExampleUITests.swift; sourceTree = "<group>"; };
+		C2A1EB081DD0AE1300B4A1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E39752A1697B820486DACDDF /* Pods-MaryToastin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryToastin_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaryToastin_Example/Pods-MaryToastin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E42877D5F6E4D224BF69A38B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F0536F6F92D3C7C746684F5A /* Pods-MaryToastin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryToastin_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaryToastin_Example/Pods-MaryToastin_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +76,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				775690B7D1B5275191DC7132 /* Pods_MaryToastin_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A1EB011DD0AE1300B4A1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +115,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for MaryToastin */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				C2A1EB051DD0AE1300B4A1EE /* MaryToastin_ExampleUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				0EB0CF411B73266CA1C4FB52 /* Pods */,
 				233945D4C010F038EAF080FC /* Frameworks */,
@@ -106,6 +127,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* MaryToastin_Example.app */,
 				607FACE51AFB9204008FA782 /* MaryToastin_Tests.xctest */,
+				C2A1EB041DD0AE1300B4A1EE /* MaryToastin_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +176,19 @@
 			children = (
 				6863FA4A0B2C353F53E2A2BC /* MaryToastin.podspec */,
 				9483E020CC122EF207B1FA35 /* README.md */,
+				C2A1EAFE1DD0ADC700B4A1EE /* CHANGELOG.md */,
 				E42877D5F6E4D224BF69A38B /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C2A1EB051DD0AE1300B4A1EE /* MaryToastin_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2A1EB061DD0AE1300B4A1EE /* MaryToastin_ExampleUITests.swift */,
+				C2A1EB081DD0AE1300B4A1EE /* Info.plist */,
+			);
+			path = MaryToastin_ExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,23 +235,49 @@
 			productReference = 607FACE51AFB9204008FA782 /* MaryToastin_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C2A1EB031DD0AE1300B4A1EE /* MaryToastin_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A1EB0B1DD0AE1300B4A1EE /* Build configuration list for PBXNativeTarget "MaryToastin_ExampleUITests" */;
+			buildPhases = (
+				C2A1EB001DD0AE1300B4A1EE /* Sources */,
+				C2A1EB011DD0AE1300B4A1EE /* Frameworks */,
+				C2A1EB021DD0AE1300B4A1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A1EB0A1DD0AE1300B4A1EE /* PBXTargetDependency */,
+			);
+			name = MaryToastin_ExampleUITests;
+			productName = MaryToastin_ExampleUITests;
+			productReference = C2A1EB041DD0AE1300B4A1EE /* MaryToastin_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = G8WDYDSFS7;
 						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = G8WDYDSFS7;
 						LastSwiftMigration = 0800;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					C2A1EB031DD0AE1300B4A1EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G8WDYDSFS7;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -239,6 +297,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* MaryToastin_Example */,
 				607FACE41AFB9204008FA782 /* MaryToastin_Tests */,
+				C2A1EB031DD0AE1300B4A1EE /* MaryToastin_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +314,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A1EB021DD0AE1300B4A1EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C2A1EAFF1DD0ADC700B4A1EE /* CHANGELOG.md in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +441,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2A1EB001DD0AE1300B4A1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A1EB071DD0AE1300B4A1EE /* MaryToastin_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -381,6 +456,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* MaryToastin_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		C2A1EB0A1DD0AE1300B4A1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* MaryToastin_Example */;
+			targetProxy = C2A1EB091DD0AE1300B4A1EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -491,7 +571,9 @@
 			baseConfigurationReference = F0536F6F92D3C7C746684F5A /* Pods-MaryToastin_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8WDYDSFS7;
 				INFOPLIST_FILE = MaryToastin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -505,7 +587,9 @@
 			baseConfigurationReference = E39752A1697B820486DACDDF /* Pods-MaryToastin_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8WDYDSFS7;
 				INFOPLIST_FILE = MaryToastin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -518,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 203A55FE6A83396EC284AB18 /* Pods-MaryToastin_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = G8WDYDSFS7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1F64A3FEF70CDD4BEBC69D3 /* Pods-MaryToastin_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = G8WDYDSFS7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -547,6 +633,45 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2A1EB0C1DD0AE1300B4A1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G8WDYDSFS7;
+				INFOPLIST_FILE = MaryToastin_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jmo.MaryToastin-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MaryToastin_Example;
+			};
+			name = Debug;
+		};
+		C2A1EB0D1DD0AE1300B4A1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = G8WDYDSFS7;
+				INFOPLIST_FILE = MaryToastin_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jmo.MaryToastin-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MaryToastin_Example;
 			};
 			name = Release;
 		};
@@ -576,6 +701,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A1EB0B1DD0AE1300B4A1EE /* Build configuration list for PBXNativeTarget "MaryToastin_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A1EB0C1DD0AE1300B4A1EE /* Debug */,
+				C2A1EB0D1DD0AE1300B4A1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

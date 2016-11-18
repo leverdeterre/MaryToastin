@@ -8,6 +8,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MarySuccessToastinViewController" customModule="MaryToastin">
             <connections>
+                <outlet property="closeImageView" destination="GhD-CH-4Nc" id="PAk-j1-YXc"/>
                 <outlet property="toastMessageLabel" destination="CGa-qI-CPT" id="Vgo-L9-O1C"/>
                 <outlet property="view" destination="iN0-l3-epB" id="jwm-bE-iDH"/>
             </connections>
@@ -23,10 +24,10 @@
                         <constraint firstAttribute="height" constant="44" id="lXx-g9-0hs"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="actions-menu-close-blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="GhD-CH-4Nc">
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="actions-menu-close-blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="GhD-CH-4Nc">
                     <constraints>
-                        <constraint firstAttribute="width" constant="20" id="IXw-08-EkN"/>
-                        <constraint firstAttribute="height" constant="20" id="OIu-6N-SOi"/>
+                        <constraint firstAttribute="width" constant="44" id="IXw-08-EkN"/>
+                        <constraint firstAttribute="height" constant="44" id="OIu-6N-SOi"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vous contacts ont été restauré avec succés" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGa-qI-CPT">
@@ -41,8 +42,8 @@
                 <constraint firstItem="CGa-qI-CPT" firstAttribute="leading" secondItem="oeU-8H-Guv" secondAttribute="trailing" constant="8" id="8ay-B3-peR"/>
                 <constraint firstItem="CGa-qI-CPT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="TtA-oa-POM"/>
                 <constraint firstItem="oeU-8H-Guv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hiK-2J-iH5"/>
-                <constraint firstAttribute="trailing" secondItem="GhD-CH-4Nc" secondAttribute="trailing" constant="20" id="i8D-6N-IYk"/>
-                <constraint firstItem="GhD-CH-4Nc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="p6p-Gb-auD"/>
+                <constraint firstAttribute="trailing" secondItem="GhD-CH-4Nc" secondAttribute="trailing" id="i8D-6N-IYk"/>
+                <constraint firstItem="GhD-CH-4Nc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="p6p-Gb-auD"/>
                 <constraint firstItem="oeU-8H-Guv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="tj9-rE-Rx5"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>

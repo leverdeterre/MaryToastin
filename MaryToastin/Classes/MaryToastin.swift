@@ -53,10 +53,10 @@ extension UIView {
 extension UIViewController {
     public func showNotification(message :String){
         let viewController = UIViewController()
-        viewController.view.backgroundColor = UIColor.init(colorLiteralRed:37.0/255.0,
-                                                           green: 198.0/255.0,
-                                                           blue: 218.0/255.0,
-                                                           alpha: 1.0)
+        viewController.view.backgroundColor = UIColor(colorLiteralRed:37.0/255.0,
+                                                      green: 198.0/255.0,
+                                                      blue: 218.0/255.0,
+                                                      alpha: 1.0)
 
         let label = UILabel()
         label.text = message
@@ -70,9 +70,8 @@ extension UIViewController {
         viewController.setPopinOptions(.dimmingViewStyleNone)
         presentPopinController(viewController, animated:true) {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                let presentingVc = viewController.presentingPopin()
-                if presentingVc != nil {
-                    presentingVc?.dismissCurrentPopinController(animated: true)
+                if let presentingVc = viewController.presentingPopin() {
+                    presentingVc.dismissCurrentPopinController(animated: true)
                 }
             }
         }
@@ -94,9 +93,8 @@ extension UIViewController {
         viewController.setPopinOptions(.dimmingViewStyleNone)
         presentPopinController(viewController, animated:true) {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                let presentingVc = viewController.presentingPopin()
-                if presentingVc != nil {
-                    presentingVc?.dismissCurrentPopinController(animated: true)
+                if let presentingVc = viewController.presentingPopin() {
+                    presentingVc.dismissCurrentPopinController(animated: true)
                 }
             }
         }

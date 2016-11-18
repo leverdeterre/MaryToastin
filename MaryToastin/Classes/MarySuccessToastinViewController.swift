@@ -10,4 +10,18 @@ import UIKit
 class MarySuccessToastinViewController : UIViewController
 {
     @IBOutlet weak var toastMessageLabel: UILabel!
+    @IBOutlet weak var closeImageView: UIImageView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(MarySuccessToastinViewController.tap))
+        closeImageView.addGestureRecognizer(tapGesture)
+        closeImageView.isUserInteractionEnabled = true
+    }
+    
+    func tap(gestureRecognizer :UITapGestureRecognizer){
+        if let presentingPopin = presentingPopin() {
+            presentingPopin.dismissCurrentPopinController(animated: true)
+        }
+    }
 }

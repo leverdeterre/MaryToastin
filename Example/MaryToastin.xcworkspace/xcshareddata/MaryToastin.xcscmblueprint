@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0135A0E791E213D545C08A83BEEBD40E0B2664D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0135A0E791E213D545C08A83BEEBD40E0B2664D2" : 9223372036854775807,
+    "2DB8CCABDE7A93E3308B640CAAEDE3900BB85093" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C8193225-287A-4B05-A3F6-9B05213014BF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0135A0E791E213D545C08A83BEEBD40E0B2664D2" : "MaryToastin\/",
+    "2DB8CCABDE7A93E3308B640CAAEDE3900BB85093" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MaryToastin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/MaryToastin.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leverdeterre\/MaryToastin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0135A0E791E213D545C08A83BEEBD40E0B2664D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leverdeterre\/xctool-log2junit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2DB8CCABDE7A93E3308B640CAAEDE3900BB85093"
+    }
+  ]
+}
