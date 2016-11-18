@@ -51,7 +51,7 @@ extension UIView {
 }
 
 extension UIViewController {
-    public func showNotification(customView :UIView){
+    public func showNotification(customView :UIView, completion: (() -> Void)?) -> Void {
         let viewController = UIViewController()
         viewController.view.backgroundColor = UIColor.blue
         viewController.view.add(subView: customView, edgeInsets:UIEdgeInsetsMake(0.0, 0.0, 0.0, 0.0))
@@ -61,7 +61,11 @@ extension UIViewController {
         viewController.setPopinAlignment(.up)
         viewController.setPopinOptions(.dimmingViewStyleNone)
         
-        presentPopinController(viewController, animated:true) {
+        presentPopinController(viewController, animated: true) {
+            if let secureCompletion = completion {
+                secureCompletion()
+            }
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 if let presentingVc = viewController.presentingPopin() {
                     presentingVc.dismissCurrentPopinController(animated: true)
@@ -70,7 +74,7 @@ extension UIViewController {
         }
     }
     
-    public func showNotification(message :String){
+    public func showNotification(message :String, completion: (() -> Void)?) -> Void {
         let viewController = UIViewController()
         viewController.view.backgroundColor = UIColor(colorLiteralRed:37.0/255.0,
                                                       green: 198.0/255.0,
@@ -82,21 +86,11 @@ extension UIViewController {
         label.textAlignment = .center
         label.textColor = UIColor.white
         label.numberOfLines = 0
-        viewController.view.add(subView: label, edgeInsets:UIEdgeInsetsMake(20.0, 0.0, 0.0, 0.0))
-        viewController.setPreferedPopinContentSize(CGSize(width: view.frame.width, height: 50.0))
-        viewController.setPopinTransitionDirection(.top)
-        viewController.setPopinAlignment(.up)
-        viewController.setPopinOptions(.dimmingViewStyleNone)
-        presentPopinController(viewController, animated:true) {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                if let presentingVc = viewController.presentingPopin() {
-                    presentingVc.dismissCurrentPopinController(animated: true)
-                }
-            }
-        }
+        label.frame = CGRectFromString("{{0,0},{300, 60}}")
+        showNotification(customView: label, completion: completion)
     }
     
-    public func showSuccessNotification(message :String){
+    public func showSuccessNotification(message :String, completion: (() -> Void)?) -> Void {
         let podBundle = Bundle(for: MarySuccessToastinViewController.classForCoder())
         let nibBundle = Bundle(path: "\(podBundle.bundlePath)/MaryToastin.bundle")
         let viewController = MarySuccessToastinViewController(nibName: "MarySuccessToastinViewController",
@@ -111,6 +105,10 @@ extension UIViewController {
         viewController.setPopinAlignment(.down)
         viewController.setPopinOptions(.dimmingViewStyleNone)
         presentPopinController(viewController, animated:true) {
+            if let secureCompletion = completion {
+                secureCompletion()
+            }
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 if let presentingVc = viewController.presentingPopin() {
                     presentingVc.dismissCurrentPopinController(animated: true)

@@ -11,18 +11,24 @@ import MaryToastin
 
 class ViewController: UIViewController {
     @IBAction func presentToast(_ sender: AnyObject) {
-        showNotification(message: "Hello")
+        showNotification(message: "Hello", completion: {
+            print("showNotification presented")
+        })
     }
     
     @IBAction func presentSuccessToast(_ sender: AnyObject) {
-        showSuccessNotification(message: "Hello")
+        showSuccessNotification(message: "Hello",completion: {
+            print("showNotification presented")
+        })
     }
     
     @IBAction func presentCustomToast(_ sender: AnyObject) {
         let image = UIImage(named: "cocoapods")
         let imageView = UIImageView(image: image)
         imageView.frame =  CGRectFromString("{{0,0},{300, 100}}")
-        showNotification(customView: imageView)
+        showNotification(customView: imageView,completion: {
+            print("showNotification presented")
+        })
     }
 }
 
