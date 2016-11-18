@@ -34,13 +34,19 @@ class MaryToastin_ExampleUITests: XCTestCase {
         
         
         let app = XCUIApplication()
+        
+        //present first Toast
         app.buttons["Present Toast"].tap()
+        sleep(1)
+        XCTAssert(app.staticTexts["Hello"].exists)
+        sleep(2) //wait 2s auto dismiss
         
-        let presentToastElementsQuery = app.otherElements.containing(.button, identifier:"Present Toast")
-        presentToastElementsQuery.children(matching: .other).element(boundBy: 1).tap()
         app.buttons["Present sucess Toast"].tap()
-        presentToastElementsQuery.children(matching: .other).element(boundBy: 0).tap()
+        sleep(3)
         
+        app.buttons["Present sucess Toast"].tap()
+        sleep(1)
+        app.images["actions-menu-close-blue.png"].tap()
+        sleep(1)
     }
-    
 }
