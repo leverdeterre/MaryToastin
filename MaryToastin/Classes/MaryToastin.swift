@@ -51,6 +51,25 @@ extension UIView {
 }
 
 extension UIViewController {
+    public func showNotification(customView :UIView){
+        let viewController = UIViewController()
+        viewController.view.backgroundColor = UIColor.blue
+        viewController.view.add(subView: customView, edgeInsets:UIEdgeInsetsMake(0.0, 0.0, 0.0, 0.0))
+        viewController.setPreferedPopinContentSize(CGSize(width: view.frame.width,
+                                                          height: customView.frame.height))
+        viewController.setPopinTransitionDirection(.top)
+        viewController.setPopinAlignment(.up)
+        viewController.setPopinOptions(.dimmingViewStyleNone)
+        
+        presentPopinController(viewController, animated:true) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                if let presentingVc = viewController.presentingPopin() {
+                    presentingVc.dismissCurrentPopinController(animated: true)
+                }
+            }
+        }
+    }
+    
     public func showNotification(message :String){
         let viewController = UIViewController()
         viewController.view.backgroundColor = UIColor(colorLiteralRed:37.0/255.0,

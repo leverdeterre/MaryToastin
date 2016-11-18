@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,8 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nn5-TH-TmX">
-                                <frame key="frameInset" minX="86" minY="318" width="202" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nn5-TH-TmX">
                                 <state key="normal" title="Present Toast"/>
                                 <connections>
                                     <action selector="presentToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MdD-Es-HTE"/>
@@ -31,6 +29,13 @@
                                     <action selector="presentSuccessToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nW0-iq-rwM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDq-Jc-EfZ">
+                                <state key="normal" title="Present custom view"/>
+                                <connections>
+                                    <action selector="presentCustomToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hpR-2S-Fqm"/>
+                                    <action selector="presentSuccessToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kbx-RL-CYE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -38,6 +43,8 @@
                             <constraint firstItem="sr0-5I-DBe" firstAttribute="leading" secondItem="Nn5-TH-TmX" secondAttribute="leading" id="NUk-SO-V49"/>
                             <constraint firstItem="Nn5-TH-TmX" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Nbn-l5-E5R"/>
                             <constraint firstItem="Nn5-TH-TmX" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="RBs-lz-Mww"/>
+                            <constraint firstItem="BDq-Jc-EfZ" firstAttribute="top" secondItem="sr0-5I-DBe" secondAttribute="bottom" constant="8" id="VBA-nq-7ll"/>
+                            <constraint firstItem="BDq-Jc-EfZ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="gGc-Gm-tDZ"/>
                             <constraint firstItem="sr0-5I-DBe" firstAttribute="trailing" secondItem="Nn5-TH-TmX" secondAttribute="trailing" id="pO8-v2-Hlb"/>
                         </constraints>
                     </view>

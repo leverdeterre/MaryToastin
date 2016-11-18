@@ -17,5 +17,12 @@ class ViewController: UIViewController {
     @IBAction func presentSuccessToast(_ sender: AnyObject) {
         showSuccessNotification(message: "Hello")
     }
+    
+    @IBAction func presentCustomToast(_ sender: AnyObject) {
+        let image = UIImage(named: "cocoapods")
+        let imageView = UIImageView(image: image)
+        imageView.frame =  CGRectFromString("{{0,0},{300, 100}}")
+        showNotification(customView: imageView)
+    }
 }
 
