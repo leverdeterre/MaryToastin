@@ -16,7 +16,7 @@ It's based on MaryPopin frameworks : https://github.com/Backelite/MaryPopin \n
                        DESC
 
   s.homepage         = 'https://github.com/leverdeterre/MaryToastin'
-  s.screenshots      =  'https://github.com/leverdeterre/screenshots/Toast.png'
+  s.screenshots      =  'https://github.com/leverdeterre/MaryToastin/screenshots/Toast.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jerome Morissard' => 'morissardj@gmail.com' }
   s.source           = { :git => 'https://github.com/leverdeterre/MaryToastin.git', :tag => s.version.to_s }
